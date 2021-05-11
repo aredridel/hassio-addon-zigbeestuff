@@ -1,0 +1,13 @@
+{
+  "name": "Zigbeestuff",
+  "version": "1.2",
+  "slug": "zigbeestuff",
+  "arch": ["aarch64"],
+  "description": "Some zigbee stuff",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "device": null
+  },
+  "image": "hub/{arch}-zigbeestuff"
+}
